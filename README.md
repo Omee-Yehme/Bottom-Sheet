@@ -17,17 +17,17 @@ This project is a React-based application that demonstrates a **Bottom Sheet UI 
 ## 🛠️ Setup Instructions
 
 ### 1. Clone the Repository
-
 > If you're downloading manually, skip this step.
-
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-2. Install Dependencies
+   git clone https://github.com/Omee-Yehme/Bottom-Sheet.git
+   cd bott-sheet
+```
+### 2. Install Dependencies
 ```bash
   Copy
   Edit
   npm install
+```
 3. Run the Application
 ```bash
   Copy
@@ -35,9 +35,41 @@ cd your-repo-name
   npm run dev
 Then open your browser and navigate to:
 http://localhost:5173
+```
+###🛠️ How This React App Was Created Using Vite
+This project was bootstrapped using Vite, which is a fast frontend build tool.
 
+📌 Steps to Create This Project with Vite
+- Install Vite (if not already installed)
+You can use npm, yarn, or pnpm.
+```bash
+Copy
+Edit
+npm create vite@latest app-name --template react
+Give your project a name (e.g., bott-sheet)
+```
+- Select Framework
+Choose:
+```yaml
+   Copy
+   Edit
+      ✔ Framework: » React
+      ✔ Variant: » JavaScript
+```
+- Navigate into the project folder:
+```bash
+cd bott-sheet
+```
+Install dependencies:
+```bash
+npm install
+```
+Start the development server:
+```bash
+npm run dev
+```
 ### 🧱 Project Structure
-bash
+```bash
 Copy
 Edit
 ├── src/
@@ -49,49 +81,52 @@ Edit
 ├── index.html
 ├── package.json
 └── vite.config.js
-
+```
 ### 📱 Snap Points
 Implemented as percentages of the screen height:
 
-0% → Fully Open (top of screen)
+- 0% → Fully Open (top of screen)
 
-50% → Half Open
+- 50% → Half Open
 
-90% → Closed (only handle visible)
+- 90% → Closed (only handle visible)
 
 ### ⚙️ Spring Motion Animation
-Spring behavior is simulated using a custom physics-based loop:
+- Spring behavior is simulated using a custom physics-based loop:
 
-Velocity, acceleration, and damping are implemented manually.
+- Velocity, acceleration, and damping are implemented manually.
 
-Drag events are tracked using mousedown, mousemove, mouseup, and their mobile equivalents.
+- Drag events are tracked using mousedown, mousemove, mouseup, and their mobile equivalents.
 
-After drag, the sheet snaps to the nearest point using a spring effect (no framer-motion).
+- After drag, the sheet snaps to the nearest point using a spring effect (no framer-motion).
 
 ### 🔧 Technologies Used
-React (with Hooks)
+- React (with Hooks)
 
-Vite (fast dev environment)
+- Vite (fast dev environment)
 
-Custom CSS
+- Custom CSS
 
-No animation libraries
+- No animation libraries
 
 ### 📱 Responsive Design
-Bottom sheet adapts to mobile and desktop screen widths.
+- Bottom sheet adapts to mobile and desktop screen widths.
 
-Tested with dev tools and mobile simulators.
+- Tested with dev tools and mobile simulators.
 
 📌 Assignment Requirements Checklist
-Requirement	Status ✅
-React setup with Hooks & Functional Components	✅
-Bottom Sheet Component	✅
-Three Snap Points	✅
-Custom Spring Motion Animation (No libraries)	✅
-Drag-and-release interaction	✅
-Manual Control (Buttons/Handle)	✅
-Visually Appealing Styles	✅
-Responsive on mobile & desktop	✅
+- Requirement	Status ✅
+- React setup with Hooks & Functional Components	✅
+- Bottom Sheet Component	✅
+- Three Snap Points	✅
+- Custom Spring Motion Animation (No libraries)	✅
+- Drag-and-release interaction	✅
+- Manual Control (Buttons/Handle)	✅
+- Visually Appealing Styles	✅
+- Responsive on mobile & desktop	✅
 
 📸 Demo
-Add screenshots or a GIF here to showcase behavior.
+
+<img width="300" height="600" alt="image" src="https://github.com/user-attachments/assets/c7459d41-aac2-4ced-ba51-09224741a630" />
+
+
