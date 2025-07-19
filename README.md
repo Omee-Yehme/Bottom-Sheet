@@ -36,7 +36,7 @@ This project is a React-based application that demonstrates a **Bottom Sheet UI 
 Then open your browser and navigate to:
 http://localhost:5173
 ```
-###🛠️ How This React App Was Created Using Vite
+### 🛠️ How This React App Was Created Using Vite
 This project was bootstrapped using Vite, which is a fast frontend build tool.
 
 📌 Steps to Create This Project with Vite
