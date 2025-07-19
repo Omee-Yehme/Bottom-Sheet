@@ -24,15 +24,11 @@ This project is a React-based application that demonstrates a **Bottom Sheet UI 
 ```
 ### 2. Install Dependencies
 ```bash
-  Copy
-  Edit
   npm install
 ```
 3. Run the Application
 ```bash
-  Copy
-  Edit
-  npm run dev
+   npm run dev
 Then open your browser and navigate to:
 http://localhost:5173
 ```
@@ -43,18 +39,14 @@ This project was bootstrapped using Vite, which is a fast frontend build tool.
 - Install Vite (if not already installed)
 You can use npm, yarn, or pnpm.
 ```bash
-Copy
-Edit
 npm create vite@latest app-name --template react
 Give your project a name (e.g., bott-sheet)
 ```
 - Select Framework
 Choose:
 ```yaml
-   Copy
-   Edit
-      ✔ Framework: » React
-      ✔ Variant: » JavaScript
+   ✔ Framework: » React
+   ✔ Variant: » JavaScript
 ```
 - Navigate into the project folder:
 ```bash
@@ -70,8 +62,6 @@ npm run dev
 ```
 ### 🧱 Project Structure
 ```bash
-Copy
-Edit
 ├── src/
 │   ├── App.jsx             # Main application wrapper
 │   ├── App.css             # Core Bottom Sheet logic and UI
