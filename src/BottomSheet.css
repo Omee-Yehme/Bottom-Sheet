@@ -3,7 +3,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    height: 80%;
+    height: 90%;
     background: #fff;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -29,6 +29,9 @@
     font-size: 9rem;
 }
 @media (max-width:480px) {
+    .bottom-sheet{
+        height: 80%;
+    }
     .sheet-content{
         font-size: 5.5rem;
         padding-inline: 20px;
