@@ -36,7 +36,38 @@ This project is a React-based application that demonstrates a **Bottom Sheet UI 
 Then open your browser and navigate to:
 http://localhost:5173
 ```
+###🛠️ How This React App Was Created Using Vite
+This project was bootstrapped using Vite, which is a fast frontend build tool.
 
+📌 Steps to Create This Project with Vite
+- Install Vite (if not already installed)
+You can use npm, yarn, or pnpm.
+```bash
+Copy
+Edit
+npm create vite@latest app-name --template react
+Give your project a name (e.g., bott-sheet)
+```
+- Select Framework
+Choose:
+```yaml
+   Copy
+   Edit
+      ✔ Framework: » React
+      ✔ Variant: » JavaScript
+```
+- Navigate into the project folder:
+```bash
+cd bott-sheet
+```
+Install dependencies:
+```bash
+npm install
+```
+Start the development server:
+```bash
+npm run dev
+```
 ### 🧱 Project Structure
 ```bash
 Copy
