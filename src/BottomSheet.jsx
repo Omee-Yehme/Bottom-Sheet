@@ -13,7 +13,7 @@ const BottomSheet = () => {
     const applySpring = (targetOffset) => {
         let position = offset;
         let velocity = 0;
-        const stiffness = 0.2;
+        const stiffness = 0.1;
         const damping = 0.8;
 
         const step = () => {

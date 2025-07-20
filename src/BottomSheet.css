@@ -13,8 +13,8 @@
 }
 
 .drag-handle {
-    width: 40px;
-    height: 6px;
+    width: 50px;
+    height: 8px;
     background: #ccc;
     border-radius: 3px;
     margin: 10px auto;
