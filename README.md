@@ -117,6 +117,7 @@ Implemented as percentages of the screen height:
 
 📸 Demo
 
-<img width="300" height="600" alt="image" src="https://github.com/user-attachments/assets/c7459d41-aac2-4ced-ba51-09224741a630" />
+<img width="300" height="600" alt="image" src="https://github.com/user-attachments/assets/d1b2cdac-9cb6-431c-8133-17aef8d4bc14" />
+
 
 
