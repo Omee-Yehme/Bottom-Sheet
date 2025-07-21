@@ -1,5 +1,6 @@
 import React, { useRef, useState, useEffect } from "react";
 import "./BottomSheet.css";
+import arrow from  "./assets/arr.png"
 
 const snapPoints = [90, 50, 0]; 
 
@@ -79,19 +80,34 @@ const BottomSheet = () => {
     }, [offset]);
 
     return (
-        <div
+        <div>
+            <div className="control-buttons">
+                <h2>Control vai Buttons</h2>
+                <button onClick={() => applySpring(0)}>Full</button>
+                <button onClick={() => applySpring(50)}>Half</button>
+                <button onClick={() => applySpring(90)}>Close</button>
+                <div style={{display:'flex',flexDirection:"column",justifyContent:"center",alignItems:"center",fontWeight:"600",color:"rgb(117, 45, 83)"}} >
+                    <img src={arrow} style={{width:"40px",paddingTop:"25rem"}} />
+                    Pull Up
+                </div>
+                
+            </div>
+            <div
             ref={sheetRef}
             className="bottom-sheet"
             style={{
                 transform: `translateY(${offset}%)`,
-                transition: dragging.current ? "none" : "transform 0s", // Disable CSS transition (we’re using JS spring)
+                transition: dragging.current ? "none" : "transform 0s", 
             }}
         >
+            
             <div className="drag-handle" />
             <div className="sheet-content">
                 React Spring Bottom Sheet
                 </div>
         </div>
+        </div>
+        
     );
 };
 
